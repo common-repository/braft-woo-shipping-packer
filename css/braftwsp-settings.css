@@ -1,0 +1,111 @@
+.braftwsp_boxes_container,
+.braftwsp_thresh_container,
+.braftwsp_langs_container,
+.braftwsp_json_backup_container{
+  margin:10px 0;
+}
+.braftwsp_boxes_add,
+.braftwsp_box_item,
+.braftwsp_thresh_add,
+.braftwsp_thresh_item,
+.braftwsp_thresh_add_item,
+.braftwsp_langs_add,
+.braftwsp_langs_item,
+.braftwsp_json_backup_button,
+.braftwsp_json_restore,
+.braftwsp_json_textfile_button{
+  display:inline-block;
+  position:relative;
+  padding:10px 10px;
+  margin:0 5px;
+  color:#fff;
+  background:#4f4f4f;
+  cursor:pointer;
+  line-height: 20px;
+}
+.braftwsp_boxes_add,
+.braftwsp_thresh_add,
+.braftwsp_thresh_add_item,
+.braftwsp_langs_add,
+.braftwsp_json_backup_button,
+.braftwsp_json_restore,
+.braftwsp_json_textfile_button{
+  background:#009900;
+}
+.braftwsp_boxes_add:hover,
+.braftwsp_box_item:hover,
+.braftwsp_thresh_add:hover,
+.braftwsp_thresh_item:hover,
+.braftwsp_thresh_add_item:hover,
+.braftwsp_langs_add:hover,
+.braftwsp_json_backup_button:hover,
+.braftwsp_json_restore:hover,
+.braftwsp_json_textfile_button:hover{
+  background: #7f7f7f;
+}
+#braftwsp_json_restore{
+  display:none;
+}
+.braftwsp_box_item i:hover,
+.braftwsp_thresh_item i:hover{
+  color:red;
+}
+
+.braftwsp_box_item_wrapper,
+.braftwsp_thresh_item_wrapper{
+  display:none;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.8);
+  z-index: 190000;
+}
+.braftwsp_box_item_wrapper.open,
+.braftwsp_thresh_item_wrapper.open{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.braftwsp_box_item_inner,
+.braftwsp_thresh_item_inner{
+  width:600px;
+  height:400px;
+  max-width:600px;
+  max-height:400px;
+  padding:40px 40px 40px 40px;
+  background:#fff;
+  overflow:auto;
+}
+.woocommerce table.form-table div.braftwsp_box_item_inner input,
+.woocommerce table.form-table div.braftwsp_thresh_item_inner input,
+.woocommerce table.form-table div.braftwsp_thresh_item_inner select{
+  width:auto;
+}
+.woocommerce table.form-table div.braftwsp_box_item_inner input[type="number"],
+.woocommerce table.form-table div.braftwsp_thresh_item_inner input[type="number"]{
+  width:100px;
+}
+.woocommerce table.form-table div.braftwsp_box_item_inner span,
+.woocommerce table.form-table div.braftwsp_thresh_item_inner span{
+  display:inline-block;
+  width:120px;
+  margin-left: 20px;
+}
+
+.braftwsp_box_item_close,
+.braftwsp_box_item_check,
+.braftwsp_thresh_item_close,
+.braftwsp_thresh_item_check{
+  position:relative;
+  top:-30px;
+  left:calc(100% - 30px);
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+.braftwsp_box_item_check,
+.braftwsp_thresh_item_check{
+  left:calc(100% - 30px);
+}

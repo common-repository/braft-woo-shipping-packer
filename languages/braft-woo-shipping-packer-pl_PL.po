@@ -1,0 +1,232 @@
+# Copyright (C) 2021 <a href="https://braft.pl">BRAFT</a>
+# This file is distributed under the same license as the BRAFT Woo Shipping Packer plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: BRAFT Woo Shipping Packer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/braft-woo-"
+"shipping-packer\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-18T14:46:41+00:00\n"
+"PO-Revision-Date: 2021-05-18 16:55+0200\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: braft-woo-shipping-packer\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: pl_PL\n"
+
+#. Plugin Name of the plugin
+msgid "BRAFT Woo Shipping Packer"
+msgstr "BRAFT Woo Shipping Packer"
+
+#. Plugin URI of the plugin
+msgid "https://braft.pl"
+msgstr "https://braft.pl"
+
+#. Description of the plugin
+msgid "Woocommerce addon to calculate shipping container and costs."
+msgstr ""
+"Dodatek Woocommerce do obliczania kosztów wysyłki na podstawie listy "
+"pudełek/kopert i progów cenowych firm logistycznych."
+
+#. Author of the plugin
+msgid "<a href=\"https://braft.pl\">BRAFT</a>"
+msgstr "<a href=\"https://braft.pl\">BRAFT</a>"
+
+#: braft-woo-shipping-packer.php:48
+msgid "Packer"
+msgstr "Packer"
+
+#: braft-woo-shipping-packer.php:78
+msgid "Box type: "
+msgstr "Typ pudełka: "
+
+#: inc/braftwsp-settings.php:4
+msgid "Languages"
+msgstr "Języki"
+
+#: inc/braftwsp-settings.php:10
+msgid "Language codes"
+msgstr "Kody języka"
+
+#: inc/braftwsp-settings.php:12
+msgid ""
+"example JSON: [{\"lang_code\":\"pl_PL\",\"lang_title\":\"Polski\"},"
+"{\"lang_code\":\"en_US\",\"lang_title\":\"English\"}]"
+msgstr ""
+"przykładowy JSON: [{\"lang_code\":\"pl_PL\",\"lang_title\":\"Polski\"},"
+"{\"lang_code\":\"en_US\",\"lang_title\":\"English\"}]"
+
+#: inc/braftwsp-settings.php:22 inc/braftwsp-settings.php:28
+msgid "Packages parameters"
+msgstr "Parametry paczek "
+
+#: inc/braftwsp-settings.php:30
+msgid ""
+"example JSON: [{\"name\":\"My package\",\r\n"
+"          \"parameters\":\"outer width,outer length,outer height,empty "
+"weight,inner width,inner length,inner height,max weight\",\r\n"
+"          \"box_price_pl_PL\":\"the price\", \"box_price_en_US\":\"the price"
+"\"}]"
+msgstr ""
+"przykładowy JSON: [{\"name\":\"My package\",\n"
+"          \"parameters\":\"outer width,outer length,outer height,empty "
+"weight,inner width,inner length,inner height,max weight\",\n"
+"          \"box_price_pl_PL\":\"the price\", \"box_price_en_US\":\"the price"
+"\"}]"
+
+#: inc/braftwsp-settings.php:41 inc/braftwsp-settings.php:47
+msgid "Shipping thresholds"
+msgstr "Progi wysyłki"
+
+#: inc/braftwsp-settings.php:49
+msgid ""
+"example JSON: [{\"name\":\"InPost\",\r\n"
+"          \"parameters\":[{\"name\":\"A\", \"max_dimensions\":\"outer width,"
+"outer length,outer depth\", \"max_weight\":\"grams\",\r\n"
+"            \"price_pl_PL\":\"the price\", \"price_en_US\":\"the price\"}]}]"
+msgstr ""
+"przykładowy JSON: [{\"name\":\"InPost\",\r\n"
+"          \"parameters\":[{\"name\":\"A\", \"max_dimensions\":\"szerokość "
+"zewnętrzna,długość zewnętrzna,głębokość zewnętrzna\", \"max_weight\":\"gramy"
+"\",\r\n"
+"            \"price_pl_PL\":\"cena\", \"price_en_US\":\"cena\"}]}]"
+
+#: inc/braftwsp-settings.php:60
+msgid "Backup"
+msgstr "Kopia zapasowa"
+
+#: inc/braftwsp-settings.php:66
+msgid "Backup JSON"
+msgstr "JSON kopii zapasowej"
+
+#: js/braftwsp-settings.js:37
+msgid "Add language"
+msgstr "Dodaj język"
+
+#: js/braftwsp-settings.js:101
+msgid "Box name: "
+msgstr "Nazwa pudełka: "
+
+#: js/braftwsp-settings.js:103
+msgid "Outer width: "
+msgstr "Szerokość zewnętrzna: "
+
+#: js/braftwsp-settings.js:105
+msgid " Outer length: "
+msgstr " Długość zewnętrzna: "
+
+#: js/braftwsp-settings.js:107
+msgid " Outer height: "
+msgstr " Wysokość zewnętrzna: "
+
+#: js/braftwsp-settings.js:109
+msgid " Box weight: "
+msgstr " Waga pudełka: "
+
+#: js/braftwsp-settings.js:111
+msgid "Inner width: "
+msgstr "Szerokość wewnętrzna: "
+
+#: js/braftwsp-settings.js:113
+msgid " Inner length: "
+msgstr " Długość wewnętrzna: "
+
+#: js/braftwsp-settings.js:115
+msgid " Inner height: "
+msgstr " Wysokość wewnętrzna: "
+
+#: js/braftwsp-settings.js:117
+msgid " Max weigth: "
+msgstr " Maks. waga: "
+
+#: js/braftwsp-settings.js:120
+msgid "Box price "
+msgstr "Cena pudełka "
+
+#: js/braftwsp-settings.js:143
+msgid "Add box"
+msgstr "Dodaj pudełko"
+
+#: js/braftwsp-settings.js:255
+msgid "Rate name: "
+msgstr "Nazwa stawki: "
+
+#: js/braftwsp-settings.js:266 js/braftwsp-settings.js:426
+msgid "Threshold name: "
+msgstr "Nazwa progu: "
+
+#: js/braftwsp-settings.js:268 js/braftwsp-settings.js:428
+msgid "Max width: "
+msgstr "Maksymalna szerokość: "
+
+#: js/braftwsp-settings.js:270 js/braftwsp-settings.js:430
+msgid " Max length: "
+msgstr " Maksymalna długość: "
+
+#: js/braftwsp-settings.js:272 js/braftwsp-settings.js:432
+msgid " Max height: "
+msgstr "Maks. wysokość: "
+
+#: js/braftwsp-settings.js:274 js/braftwsp-settings.js:434
+msgid " Max weight: "
+msgstr " Maksymalna waga: "
+
+#: js/braftwsp-settings.js:277
+msgid "Price "
+msgstr "Cena "
+
+#: js/braftwsp-settings.js:282
+msgid "Add threshold"
+msgstr "Dodaj próg"
+
+#: js/braftwsp-settings.js:302
+msgid "Add shipping rate"
+msgstr "Dodaj cenę wysyłki"
+
+#: js/braftwsp-settings.js:439
+msgid "price : "
+msgstr "cena: "
+
+#: js/braftwsp-settings.js:484
+msgid "outer dimensions"
+msgstr "wymiary zewnętrzne"
+
+#: js/braftwsp-settings.js:487
+msgid "inner dimensions"
+msgstr "wymiary wewnętrzne"
+
+#: js/braftwsp-settings.js:490
+msgid "box weight"
+msgstr "waga pudełka"
+
+#: js/braftwsp-settings.js:491 js/braftwsp-settings.js:509
+msgid "max weight"
+msgstr "maksymalna waga"
+
+#: js/braftwsp-settings.js:493
+msgid "box price "
+msgstr "cena pudełka "
+
+#: js/braftwsp-settings.js:506
+msgid "max dimensions "
+msgstr "maksymalne wymiary "
+
+#: js/braftwsp-settings.js:511
+msgid "price "
+msgstr "cena "
+
+#: js/braftwsp-settings.js:525
+msgid " Backup to JSON file"
+msgstr " Kopia zapasowa do pliku JSON"
+
+#: js/braftwsp-settings.js:526
+msgid " Restore from JSON file"
+msgstr " Przywracanie z pliku JSON"
+
+#: js/braftwsp-settings.js:527
+msgid " Create TXT file"
+msgstr " Tworzenie pliku TXT"
